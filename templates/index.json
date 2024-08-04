@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "section-image-with-text-overlay",
+      "blocks": {
+        "image-with-text-overlay-1": {
+          "type": "overlay_content",
+          "settings": {
+            "title": "discover your own universe",
+            "section_subheading": "summer season 24",
+            "button_1_link": "shopify:\/\/collections\/dresses",
+            "button_1_text": "shop all",
+            "button_1_style": "fill",
+            "button_2_link": "shopify:\/\/collections\/all",
+            "button_2_text": "",
+            "button_2_style": "outline",
+            "text_color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-overlay-1"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/001150_1.jpg",
+        "desktop_height": "l",
+        "mobile_image": "shopify:\/\/shop_images\/001150_1.jpg",
+        "mobile_height": "m",
+        "image_link": "",
+        "section_width": "full",
+        "text_position": "bottom_right",
+        "background_color_scheme": "general",
+        "overlay_color_scheme": "dark",
+        "overlay_opacity": 20
+      }
+    },
+    "section_collection_grid_kQWCfY": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "collection_KBQCPb": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses",
+            "collection_heading": "DRESSES",
+            "collection_text_position": "bottom_left",
+            "button_label": "Shop now",
+            "button_style": "filled",
+            "text_overlay_color_scheme": "accent-1",
+            "overlay_color_scheme": "bg-black",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_xbhVMa": {
+          "type": "collection",
+          "settings": {
+            "collection": "jewelry",
+            "collection_heading": "Jewelry",
+            "collection_text_position": "bottom_left",
+            "button_label": "SHOP NOW",
+            "button_style": "filled",
+            "text_overlay_color_scheme": "accent-1",
+            "overlay_color_scheme": "bg-black",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_XChnqN": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags-women",
+            "collection_heading": "BAGS",
+            "collection_text_position": "bottom_left",
+            "button_label": "Shop now",
+            "button_style": "filled",
+            "text_overlay_color_scheme": "accent-1",
+            "overlay_color_scheme": "bg-black",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_H3jKWg": {
+          "type": "collection",
+          "settings": {
+            "collection": "shoes",
+            "collection_heading": "shoes",
+            "collection_text_position": "bottom_left",
+            "button_label": "Shop now",
+            "button_style": "filled",
+            "text_overlay_color_scheme": "accent-1",
+            "overlay_color_scheme": "bg-black",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "collection_KBQCPb",
+        "collection_xbhVMa",
+        "collection_XChnqN",
+        "collection_H3jKWg"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "SHOP BY CATEGORY",
+        "text_alignment": "center",
+        "collections_per_row_desktop": 3,
+        "collections_per_row_mobile": "2",
+        "section_color_scheme": "general"
+      }
+    },
+    "section_featured_collection_CRjr6r": {
+      "type": "section-featured-collection",
+      "settings": {
+        "collection": "trending",
+        "subheading": "",
+        "heading": "TRENDING",
+        "alignment": "text-center",
+        "products_per_page": 4,
+        "products_per_row": 4,
+        "products_per_row_mobile": "2",
+        "color_scheme": "general"
+      }
+    },
+    "flotilla_multi_collections_WwzPzJ": {
+      "type": "flotilla-multi-collections",
+      "blocks": {
+        "collection_PAXczD": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses",
+            "heading": "{{ block.settings.collection.title }}",
+            "products_to_show": 8,
+            "button_style": "filled"
+          }
+        },
+        "collection_HKGVHY": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "heading": "Clothes",
+            "products_to_show": 8,
+            "button_style": "filled"
+          }
+        },
+        "collection_zmNh4P": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "heading": "Bags",
+            "products_to_show": 8,
+            "button_style": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "collection_PAXczD",
+        "collection_HKGVHY",
+        "collection_zmNh4P"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Discover",
+        "heading": "your own universe",
+        "text_alignment": "center",
+        "visible_products": 4,
+        "section_color_scheme": "general"
+      }
+    },
+    "newsletter": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "settings": {
+        "section_subheading": "Jetzt anmelden",
+        "section_heading": "Erhalten Sie den Newsletter",
+        "horizontal_alignment": "center",
+        "section_width": "full-with-padding",
+        "section_color_scheme": "accent-3"
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "section_collection_grid_kQWCfY",
+    "section_featured_collection_CRjr6r",
+    "flotilla_multi_collections_WwzPzJ",
+    "newsletter"
+  ]
+}

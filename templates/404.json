@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "ship-404",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

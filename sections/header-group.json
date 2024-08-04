@@ -1,0 +1,91 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "section-announcement-bar",
+      "blocks": {
+        "announcement_1": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "SUMMER SALE | UP TO 70% OFF",
+            "announcement_link": "shopify:\/\/products\/ariana-dress"
+          }
+        },
+        "announcement_2": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "FREE SHIPPING OVER 65 EUR",
+            "announcement_link": "shopify:\/\/products\/ariana-dress"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_1",
+        "announcement_2"
+      ],
+      "settings": {
+        "show_announcement": true,
+        "rotation_interval": 3,
+        "show_arrows": true,
+        "section_color_scheme": "accent-1"
+      }
+    },
+    "engine-quick-search": {
+      "type": "engine-quick-search",
+      "blocks": {
+        "engine-quick-search-0": {
+          "type": "search_navigation",
+          "settings": {
+            "navigation_header": "Navigation menu",
+            "search_menu": "menu-anglais"
+          }
+        },
+        "engine-quick-search-1": {
+          "type": "search_collection",
+          "settings": {
+            "featured_collection_header": "Featured collection",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "engine-quick-search-0",
+        "engine-quick-search-1"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "standard_menu",
+          "settings": {
+            "default_navigation": "menu-anglais"
+          }
+        }
+      },
+      "block_order": [
+        "header-0"
+      ],
+      "settings": {
+        "header_logo": "shopify:\/\/shop_images\/Design_sans_titre_38.png",
+        "logo_width_desktop": 130,
+        "logo_width_mobile": 110,
+        "logo_aligment": "left",
+        "show_country": false,
+        "show_languages": false,
+        "show_icons": true,
+        "enable_search": true,
+        "menu_icon": "plus",
+        "section_color_scheme": "general"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "engine-quick-search",
+    "header"
+  ]
+}

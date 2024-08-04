@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "section-image-with-text-overlay",
+      "blocks": {
+        "2a4a6598-ffec-4cb4-b986-da89849a6eb9": {
+          "type": "overlay_content",
+          "settings": {
+            "title": "Wir sind HeraHaute.",
+            "section_subheading": "Für Frauen gemacht.",
+            "button_1_link": "",
+            "button_1_text": "Shop now",
+            "button_1_style": "fill",
+            "button_2_link": "",
+            "button_2_text": "",
+            "button_2_style": "outline",
+            "text_color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "2a4a6598-ffec-4cb4-b986-da89849a6eb9"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/final_dts-bad-taste_2.jpg",
+        "desktop_height": "m",
+        "mobile_image": "shopify:\/\/shop_images\/final_dts-bad-taste_2.jpg",
+        "mobile_height": "xs",
+        "image_link": "",
+        "section_width": "full-with-padding",
+        "text_position": "center",
+        "background_color_scheme": "general",
+        "overlay_color_scheme": "dark",
+        "overlay_opacity": 30
+      }
+    },
+    "rich-text": {
+      "type": "ship-rich-text",
+      "blocks": {
+        "16498413774d0e4162-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei HERAHAUTE glauben wir, dass Mode nicht nur Kleidung ist; sie ist eine Leinwand für Selbstausdruck, ein Mittel zur Ermächtigung und eine Erklärung der Individualität. Als stolze E-Commerce-Marke haben wir ein nahtloses Einkaufserlebnis kuratiert, das die neuesten Trends direkt zu Ihnen nach Hause bringt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16498413774d0e4162-2"
+      ],
+      "settings": {
+        "section_width": "full-with-padding",
+        "horizontal_alignment": "text-center justify-center",
+        "section_color_scheme": "general"
+      }
+    },
+    "callout-text-00": {
+      "type": "ship-callout-text",
+      "settings": {
+        "section_width": "narrow",
+        "horizontal_alignment": "text-center items-center",
+        "text": "Für jede Frau, zu jedem Anlass.",
+        "link_1": "",
+        "button_1_text": "",
+        "button_1_style": "fill",
+        "button_2_link": "",
+        "button_2_text": "",
+        "button_2_style": "outline",
+        "color_scheme": "accent-3"
+      }
+    },
+    "image-with-text": {
+      "type": "flotilla-image-with-text",
+      "blocks": {
+        "164932495971d0be0b-0": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "Echt",
+            "body_text": "Wir verstehen die Herausforderungen, einen hektischen Lebensstil mit einem stets aktuellen Modebewusstsein in Einklang zu bringen. Daher haben wir sorgfältig eine Kollektion zusammengestellt, die den vielfältigen Geschmack und die Präferenzen der Frauen in ganz Deutschland anspricht.",
+            "button_link": "",
+            "button_text": "Shop now",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "164932495971d0be0b-0"
+      ],
+      "settings": {
+        "image_position": "md:flex-row",
+        "image": "shopify:\/\/shop_images\/HDjpg_final_DTS_VF_298.jpg",
+        "bg_color_scheme": "general",
+        "content_color_scheme": "accent-1"
+      }
+    },
+    "callout-text-01": {
+      "type": "ship-callout-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "horizontal_alignment": "text-center items-center",
+        "text": "Erschwingliche, trendige Mode.",
+        "link_1": "",
+        "button_1_text": "",
+        "button_1_style": "fill",
+        "button_2_link": "",
+        "button_2_text": "",
+        "button_2_style": "outline",
+        "color_scheme": "accent-3"
+      }
+    },
+    "story-slideshow": {
+      "type": "flotilla-story-slideshow",
+      "blocks": {
+        "1649327167c00d9244-0": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/final_dts-bad-taste_1.jpg",
+            "heading": "Erschwinglich",
+            "text": "Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.",
+            "button_link": "",
+            "button_label": ""
+          }
+        },
+        "1649327167c00d9244-1": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/final_dts-bad-taste_4.jpg",
+            "heading": "Trendy",
+            "text": "Tauche ein in die neuesten Trends mit HERAHAUTE. Unsere Designs verkörpern die Essenz der aktuellen Mode, damit dein Look immer im Trend liegt und mühelos stylisch ist.",
+            "button_link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649327167c00d9244-0",
+        "1649327167c00d9244-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "text_alignment": "left",
+        "bg_color_scheme": "general",
+        "content_color_scheme": "accent-3"
+      }
+    },
+    "icons-with-text": {
+      "type": "flotilla-icons-with-text",
+      "settings": {
+        "text_alignment": "center",
+        "section_width": "full",
+        "section_color_scheme": "accent-2"
+      }
+    },
+    "page-header": {
+      "type": "page-main-header",
+      "disabled": true,
+      "settings": {
+        "section_color_scheme": "general"
+      }
+    },
+    "page-main": {
+      "type": "page-main-content",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "rich-text",
+    "callout-text-00",
+    "image-with-text",
+    "callout-text-01",
+    "story-slideshow",
+    "icons-with-text",
+    "page-header",
+    "page-main"
+  ]
+}

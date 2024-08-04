@@ -1,0 +1,464 @@
+{
+  "wrapper": "div.product-template-wrapper",
+  "sections": {
+    "gallery": {
+      "type": "product-main-gallery",
+      "settings": {
+        "gallery_style": "slider",
+        "enable_zoom": true,
+        "enable_video_looping": true
+      }
+    },
+    "main": {
+      "type": "product-main-form",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false
+          }
+        },
+        "judge_me_reviews_preview_badge_AmdLje": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "image_with_offers_bMVmTF": {
+          "type": "image-with-offers",
+          "settings": {
+            "image_with_offers_image": "shopify:\/\/shop_images\/BUY_1_DRESS_GET_1_FREE_BAG_4.png",
+            "image_with_offers_link": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included_text": false,
+            "show_shipping_policy": false
+          }
+        },
+        "5559c509-a219-49ca-a200-e7f966d8d9d4": {
+          "type": "options",
+          "settings": {
+            "options_type": "buttons",
+            "preselect_variant": true,
+            "color_swatch_identifier": "color,colour,couleur,colore,farbe,색,色,färg,farve"
+          }
+        },
+        "bf_size_charts_block_jEkBUF": {
+          "type": "shopify:\/\/apps\/bf-size-charts\/blocks\/block\/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
+          "settings": {
+          }
+        },
+        "rating_slider_CWLbhP": {
+          "type": "rating-slider",
+          "settings": {
+            "rating": "{{ product.title }}",
+            "rating_name": "Sizing \/ fit",
+            "rating_min": -1,
+            "rating_max": 1,
+            "label_left": "Small",
+            "label_center": "True to size",
+            "label_right": "Large"
+          }
+        },
+        "maxbundle_product_bundles_app_block_volume_bundle_RK9gqk": {
+          "type": "shopify:\/\/apps\/maxbundle-product-bundles\/blocks\/app-block-volume-bundle\/469560a3-d600-4f5e-a767-2a4cdaceacca",
+          "settings": {
+          }
+        },
+        "payment-buttons": {
+          "type": "payment-buttons",
+          "settings": {
+            "enable_gift_card_recipient_form": true
+          }
+        },
+        "cross_sells_hmgA4A": {
+          "type": "cross-sells",
+          "disabled": true,
+          "settings": {
+            "title": "COMPLETE YOUR STYLE...",
+            "cross_sells_product_1": "ariana-bag",
+            "cross_sells_product_2": "ariana-heels",
+            "cross_sells_color_scheme": "accent-3"
+          }
+        },
+        "custom_liquid_bde78f": {
+          "type": "custom-liquid",
+          "settings": {
+            "enable_accordion": true,
+            "custom_liquid_heading": "Size chart",
+            "custom-liquid": "<div class=\"size-chart\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0551\/6378\/1162\/files\/Capture_d_ecran_2024-06-12_014412.png?v=1718149527\" alt=\"Size Chart for Hoodies\">\n<\/div>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_accordion": true,
+            "description_heading": "Description"
+          }
+        },
+        "size_chart_Cxq7AX": {
+          "type": "size-chart",
+          "settings": {
+            "enable_accordion": true,
+            "size_chart_heading": "Delivery & Returns",
+            "size_chart_page": "return-policy"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "judge_me_reviews_preview_badge_AmdLje",
+        "image_with_offers_bMVmTF",
+        "price",
+        "5559c509-a219-49ca-a200-e7f966d8d9d4",
+        "bf_size_charts_block_jEkBUF",
+        "rating_slider_CWLbhP",
+        "maxbundle_product_bundles_app_block_volume_bundle_RK9gqk",
+        "payment-buttons",
+        "cross_sells_hmgA4A",
+        "custom_liquid_bde78f",
+        "description",
+        "size_chart_Cxq7AX"
+      ],
+      "settings": {
+      }
+    },
+    "flotilla_image_with_text_waXNqV": {
+      "type": "flotilla-image-with-text",
+      "blocks": {
+        "text_aKq4Vg": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "Image with text",
+            "body_text": "Use text slides, paired with a large image to create a captivating brand story, explain details of your products, or even provide reviews.",
+            "button_link": "",
+            "button_text": "Shop now",
+            "button_style": "outline"
+          }
+        },
+        "text_8QBxct": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "Enchant with Every Step",
+            "body_text": "Feel the gaze of admirers drawn to your effortless beauty and undeniable charm",
+            "button_link": "",
+            "button_text": "Shop now",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_aKq4Vg",
+        "text_8QBxct"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "md:flex-row",
+        "image": "shopify:\/\/shop_images\/352244760_791046679245860_5005414082177776104_n.jpg",
+        "bg_color_scheme": "general",
+        "content_color_scheme": "accent-3"
+      }
+    },
+    "flotilla_image_with_text_98wXP8": {
+      "type": "flotilla-image-with-text",
+      "blocks": {
+        "text_3DNwBh": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "THE PERFECT DRESS",
+            "body_text": "Enhance Your Style for Every Occasion: A Fusion of Luxurious Comfort and Fashion-Forward Elegance.",
+            "button_link": "",
+            "button_text": "Shop now",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_3DNwBh"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "md:flex-row",
+        "image": "shopify:\/\/shop_images\/352309722_266819799221759_6692783169809388810_n.jpg",
+        "bg_color_scheme": "general",
+        "content_color_scheme": "accent-3"
+      }
+    },
+    "flotilla_gallery_CabtpY": {
+      "type": "flotilla-gallery",
+      "blocks": {
+        "image_xxpC6c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/so_much_love_3.jpg",
+            "link": "",
+            "button_text": "",
+            "button_style": "outline",
+            "heading": "",
+            "text_position": "center",
+            "text_color_scheme": "general",
+            "overlay_style": "bg-black",
+            "overlay_opacity": 20
+          }
+        },
+        "image_7mWBde": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/so_much_love_3_1.jpg",
+            "link": "",
+            "button_text": "",
+            "button_style": "outline",
+            "heading": "",
+            "text_position": "center",
+            "text_color_scheme": "general",
+            "overlay_style": "bg-black",
+            "overlay_opacity": 20
+          }
+        },
+        "image_qrAWCM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/434713743_2199209297089637_7474638992093054007_n.jpg",
+            "link": "",
+            "button_text": "",
+            "button_style": "outline",
+            "heading": "",
+            "text_position": "center",
+            "text_color_scheme": "general",
+            "overlay_style": "bg-black",
+            "overlay_opacity": 20
+          }
+        },
+        "image_pXRPqe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_iconic_pink_will_be_available_in_our_new_design_and_og._sydneyalgeri_pinkpalmpuff.jpg",
+            "link": "https:\/\/d166chel5lrjm5.cloudfront.net\/images\/detailed\/97\/look-08-3054.jpg",
+            "button_text": "",
+            "button_style": "outline",
+            "heading": "",
+            "text_position": "center",
+            "text_color_scheme": "general",
+            "overlay_style": "bg-black",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_xxpC6c",
+        "image_7mWBde",
+        "image_qrAWCM",
+        "image_pXRPqe"
+      ],
+      "settings": {
+        "section_subheading": "Join Our Stylish",
+        "section_heading": "Journey",
+        "heading_alignment": "text-center",
+        "img_row_desktop": 4,
+        "img_row_mobile": "two",
+        "img_aspect_ratio": "portrait",
+        "section_width": "full",
+        "bg_color_scheme": "general"
+      }
+    },
+    "section_testimonials_Kemb6L": {
+      "type": "section-testimonials",
+      "blocks": {
+        "testimonial_V8FeiH": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_content": "\"I can't get enough of this dress! It's officially my new favorite piece in my wardrobe.\"",
+            "testimonial_author": "Samanta.J"
+          }
+        },
+        "testimonial_Wk8Pyb": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_content": "\"I've never worn anything so effortlessly chic! It's like it was made just for me.\"",
+            "testimonial_author": "Megan.S"
+          }
+        },
+        "testimonial_AFL397": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_content": "\"I felt like a goddess at my best friend's wedding. This dress made the day even more magical.\"",
+            "testimonial_author": "Sarah.C"
+          }
+        },
+        "testimonial_mKY9X7": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_content": "\"From brunch to date night, this dress has become my go-to. So comfortable, so stylish.\"",
+            "testimonial_author": "Lizzy.K"
+          }
+        },
+        "testimonial_EYmUNR": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_content": "\"As a busy mom, finding something stylish and comfortable is a challenge. This dress nails it!\"",
+            "testimonial_author": "Emily.A"
+          }
+        },
+        "testimonial_PnVqkW": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_content": "\"Wore it to a work event and got so many compliments. Definitely a wardrobe staple now.\"",
+            "testimonial_author": "TIA.B"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_V8FeiH",
+        "testimonial_Wk8Pyb",
+        "testimonial_AFL397",
+        "testimonial_mKY9X7",
+        "testimonial_EYmUNR",
+        "testimonial_PnVqkW"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_subheading": "They trusted us",
+        "section_heading": "Testimonials",
+        "section_color_scheme": "general"
+      }
+    },
+    "ship_callout_text_7wCjWr": {
+      "type": "ship-callout-text",
+      "settings": {
+        "section_width": "full-with-padding",
+        "horizontal_alignment": "text-center items-center",
+        "text": "make every day fashionable",
+        "link_1": "",
+        "button_1_text": "",
+        "button_1_style": "fill",
+        "button_2_link": "",
+        "button_2_text": "",
+        "button_2_style": "outline",
+        "color_scheme": "accent-3"
+      }
+    },
+    "flotilla_multi_collections_J9LcTn": {
+      "type": "flotilla-multi-collections",
+      "blocks": {
+        "collection_yfrkF9": {
+          "type": "collection",
+          "settings": {
+            "collection": "women-cloth",
+            "heading": "Clothes",
+            "products_to_show": 8,
+            "button_style": "filled"
+          }
+        },
+        "collection_9XgRk7": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags-women",
+            "heading": "Accessories",
+            "products_to_show": 8,
+            "button_style": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "collection_yfrkF9",
+        "collection_9XgRk7"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Add fashion",
+        "heading": "to your universe",
+        "text_alignment": "center",
+        "visible_products": 4,
+        "section_color_scheme": "general"
+      }
+    },
+    "section_featured_collection_dc7KEw": {
+      "type": "section-featured-collection",
+      "settings": {
+        "collection": "dresses",
+        "subheading": "YOU MAY ALSO LIKE",
+        "heading": "",
+        "alignment": "text-left",
+        "products_per_page": 12,
+        "products_per_row": 3,
+        "products_per_row_mobile": "2",
+        "color_scheme": "general"
+      }
+    },
+    "product-recommendations": {
+      "type": "flotilla-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "general",
+        "product_recommendations_subheading": "Das könnte Ihnen auch gefallen",
+        "product_recommendations_heading": "",
+        "heading_alignment": "text-left",
+        "product_row_desktop": 4,
+        "product_row_mobile": "two"
+      }
+    },
+    "flotilla_image_with_text_nNM9j3": {
+      "type": "flotilla-image-with-text",
+      "blocks": {
+        "text_AN3YYm": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "DESIGN PHILOSOPHY",
+            "body_text": "Our purpose is to offer a uniquely curated selection of clothing that will complete any girl's wardrobe.",
+            "button_link": "",
+            "button_text": "Shop now",
+            "button_style": "outline"
+          }
+        },
+        "text_6WrbmR": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "heading": "DESIGN PHILOSOPHY",
+            "body_text": "Our story is far from finished, and we look forward to writing even more chapters together with you.",
+            "button_link": "",
+            "button_text": "Shop now",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_AN3YYm",
+        "text_6WrbmR"
+      ],
+      "settings": {
+        "image_position": "md:flex-row",
+        "image": "shopify:\/\/shop_images\/pexels-photo-14208317.jpg",
+        "bg_color_scheme": "general",
+        "content_color_scheme": "accent-3"
+      }
+    }
+  },
+  "order": [
+    "gallery",
+    "main",
+    "flotilla_image_with_text_waXNqV",
+    "flotilla_image_with_text_98wXP8",
+    "flotilla_gallery_CabtpY",
+    "section_testimonials_Kemb6L",
+    "ship_callout_text_7wCjWr",
+    "flotilla_multi_collections_J9LcTn",
+    "section_featured_collection_dc7KEw",
+    "product-recommendations",
+    "flotilla_image_with_text_nNM9j3"
+  ]
+}

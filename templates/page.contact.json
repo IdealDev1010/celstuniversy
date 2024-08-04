@@ -1,0 +1,96 @@
+{
+  "sections": {
+    "page-main": {
+      "type": "page-main-content",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich-text": {
+      "type": "ship-rich-text",
+      "blocks": {
+        "rich-text-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontaktieren Sie uns"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-1"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "horizontal_alignment": "text-left items-start",
+        "section_color_scheme": "general"
+      }
+    },
+    "page-contact-form": {
+      "type": "section-contact-form",
+      "blocks": {
+        "name_input": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "email_input": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "tel_input": {
+          "type": "tel_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "message_input": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input",
+        "email_input",
+        "tel_input",
+        "message_input"
+      ],
+      "settings": {
+        "form_title": "Nachricht senden",
+        "section_color_scheme": "general"
+      }
+    },
+    "section-newsletter": {
+      "type": "section-newsletter",
+      "settings": {
+        "section_subheading": "Jetzt anmelden",
+        "section_heading": "Erhalten Sie den Newsletter",
+        "horizontal_alignment": "center",
+        "section_width": "full-with-padding",
+        "section_color_scheme": "general"
+      }
+    },
+    "page-header": {
+      "type": "page-main-header",
+      "disabled": true,
+      "settings": {
+        "section_color_scheme": "general"
+      }
+    }
+  },
+  "order": [
+    "page-main",
+    "rich-text",
+    "page-contact-form",
+    "section-newsletter",
+    "page-header"
+  ]
+}

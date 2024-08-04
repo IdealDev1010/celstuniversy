@@ -1,0 +1,45 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_width_desktop": 140,
+            "logo_width_mobile": 140
+          }
+        },
+        "footer-1": {
+          "type": "footer_newsletter",
+          "settings": {
+            "footer_newsletter_heading": "ENTER YOUR UNIVERSE",
+            "footer_newsletter_content": "<p>Join our exclusive newsletter and become part of our cherished inner circle. Receive emails about our news, offers, giveaways and much more.<\/p>"
+          }
+        },
+        "79e9dbd6-3c46-45ba-beef-b58885c5a58e": {
+          "type": "links",
+          "settings": {
+            "footer_links_heading": "HELP",
+            "footer_navigation": "policies"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "79e9dbd6-3c46-45ba-beef-b58885c5a58e"
+      ],
+      "settings": {
+        "show_payment_methods": true,
+        "section_color_scheme": "accent-3"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

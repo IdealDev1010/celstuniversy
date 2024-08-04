@@ -1,0 +1,26 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "unit"
+  },
+  "sections": {
+    "announcement-bar": {
+      "settings": {
+      },
+      "blocks": {
+        "announcement_2": {
+          "settings": {
+            "announcement_text": "FREE DELIVERY ON ALL ORDERS",
+            "announcement_link": "shopify:\/\/products\/ariana-dress"
+          }
+        },
+        "announcement_1": {
+          "settings": {
+            "announcement_text": "FINAL SALE ENDS TODAY",
+            "announcement_link": "shopify:\/\/products\/ariana-dress"
+          }
+        }
+      }
+    }
+  }
+}
