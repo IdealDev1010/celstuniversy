@@ -433,7 +433,37 @@ class ProductForm extends HTMLElement {
 
   atcSuccess(data) {
     this.setButton('added');
-
+      $('.cart__drawer').addClass('show-cart__drawer');
+      $('body').addClass('cv--show-cart__drawer');
+      $('html').addClass('close-scroll');
+      
+      fetch(`/cart?section_id=cart-drawer`)
+      .then((response) => response.text())
+      .then((responseText) => {
+        const html = new DOMParser().parseFromString(responseText, 'text/html');
+        console.log(html)
+        const selectors = ['#cart-drawer .cart__drawer-section'];
+        for (const selector of selectors) {
+          const targetElement = document.querySelector(selector);
+          const sourceElement = html.querySelector(selector);
+          if (targetElement && sourceElement) {
+            targetElement.replaceWith(sourceElement);
+            var shippingCheck = document.querySelector(".toggle-switch");
+            var status = shippingCheck.querySelector('input');
+            FreeShippingPrice();
+              if(!status.checked)
+              {
+                shippingCheck.click();
+              }  
+          }
+        }
+      })
+      .catch((e) => {
+        console.error(e);
+      });
+      
+   
+      
     if(this.giftCardRecipientCheckbox.checked) {
       // empty gift card recipient input fields
       this.giftCardRecipientInputFields.forEach(input => {
@@ -451,7 +481,7 @@ class ProductForm extends HTMLElement {
     if (this.cartTypePage) {
       window.location = this.cartPageUrl;
     }
-
+    
     // Change button back to 'add'.
     setTimeout(() => {
       this.setButton(false, true);

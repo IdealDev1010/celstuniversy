@@ -4,6 +4,7 @@
   "sections": {
     "toast": {
       "type": "toast",
+      "disabled": true,
       "settings": {
         "duration": 4,
         "section_color_scheme": "general",

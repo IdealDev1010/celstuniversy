@@ -22,6 +22,7 @@
     {%- endunless -%}
 
     <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     <link rel="modulepreload" href="{{ 'theme.min.js' | asset_url }}">
 
@@ -42,7 +43,7 @@
     -%}
 
     {{ content_for_header }}
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=574d4682"></script>
   </head>
@@ -54,9 +55,8 @@
     endunless
   %}
 
-  <body class="template-{{ request.page_type | handle }} bg-page text-base font-body max-w-full overflow-x-hidden !h-auto{{ disable_animation_class }}"{% if settings.cart_type == 'page' %} data-armada-cart-type-page="true" data-cart-url="{{ routes.cart_url }}"{% endif %}>
+  <body class="template-{{ request.page_type | handle }} bg-page text-base font-body max-w-full !h-auto{{ disable_animation_class }}"{% if settings.cart_type == 'page' %} data-armada-cart-type-page="true" data-cart-url="{{ routes.cart_url }}"{% endif %}>
     {{ 'theme.css' | asset_url | stylesheet_tag }}
-    {{ 'custom.css' | asset_url | stylesheet_tag }}
   {{ 'a2reviews-custom.css' | asset_url | stylesheet_tag }}
     {%- if settings.custom_css != blank -%}
       <style>
@@ -65,6 +65,9 @@
     {%- endif -%}
 
     {% sections 'header-group' %}
+    {%- if settings.cart_type == 'cart_drawer' -%}
+      {%- section 'cart-drawer' -%}
+    {%- endif -%}
 
     {%- capture extra_classes -%}
       {%- if template.name contains 'cart' -%}

@@ -1,0 +1,52 @@
+.totals {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .totals > * {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  .totals > h2 {
+    color: #000;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: 0.48px;
+  }
+  
+  .totals * {
+    line-height: 1;
+  }
+  
+  .totals > * + * {
+    margin-left: 2rem;
+  }
+  
+  .totals__total {
+    margin-top: .5rem;
+  }
+  
+  .totals__total-value {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: 0.48px;
+  }
+  
+  .cart__ctas + .totals {
+    margin-top: 2rem;
+  }
+  
+  @media all and (min-width: 750px) {
+    .totals {
+      justify-content: flex-end;
+    }
+  }
+  

@@ -14,7 +14,10 @@
     "color_background_accent_3": "#F7F7F7",
     "headings_font": "roboto_condensed_n7",
     "headings_size": "large",
-    "cart_type": "popup_notification",
+    "cart_type": "cart_drawer",
+    "cart_recommend_product": true,
+    "free-shipping-amount": 60,
+    "shipping_protection": "vip-customer-90-day-extended-warranty",
     "show_discount_savings": "value",
     "show_smart_checkout": false,
     "product_form_sticky": false,
@@ -204,18 +207,19 @@
         "settings": {
           "num_badges": 1
         }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "show_policy": false,
+          "description": "<p>text<p>"
+        }
       }
     },
     "content_for_index": [
 
     ],
     "blocks": {
-      "14952540001915115444": {
-        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "11254466806377166470": {
         "type": "shopify:\/\/apps\/bf-size-charts\/blocks\/embed-block\/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
         "disabled": false,
@@ -267,6 +271,12 @@
       "11724500921838622758": {
         "type": "shopify:\/\/apps\/frequently-bought\/blocks\/app-embed-block\/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "14952540001915115444": {
+        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "disabled": true,
         "settings": {
         }
       }

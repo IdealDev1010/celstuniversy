@@ -439,8 +439,39 @@
               "fr": "Aller au panier",
               "pt-PT": "Ir para o carrinho"
             }
+          },
+          {
+            "value": "cart_drawer",
+            "label": {
+              "en": "Cart drawer",
+              "de": "Wagenschublade",
+              "es": "cajón del carro",
+              "fr": "tiroir à chariot",
+              "pt-PT": "gaveta do carrinho"
+           
+            }
           }
         ]
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_recommend_product",
+        "label": "Enable recommend product"
+      },
+      {
+        "type": "number",
+        "id": "free-shipping-amount",
+        "label": "For free shipping amount"
+      },
+      {
+        "type": "header",
+        "content": "Shipping protection"
+
+      },
+      {
+        "type": "product",
+        "id": "shipping_protection",
+        "label": "Shipping protection product"
       }
     ]
   },

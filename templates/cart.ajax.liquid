@@ -1,0 +1,9 @@
+{% layout none %}
+<div class="recommend__product">
+    {% for item in cart.items %}
+    {% if item.product.metafields.custom.upsell.value %}
+        {%- render 'recommend-product', item: item -%}
+    {%- break -%}
+    {% endif %}
+    {% endfor %}
+</div>

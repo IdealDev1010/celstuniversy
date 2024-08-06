@@ -102,7 +102,7 @@
   </div>
 
   {% comment %} TODO: this should be a web component? {% endcomment %}
-  <div class="relative">
+  <div class="relative header-cart-icon">
     {% render 'armament-icon' with icon: 'bag', classes: 'cursor-pointer', has_link: true, link_href: routes.cart_url, link_label: aria_cart, link_classes: bag_classes %}
     <div class="{{ count_classes }}">
       {{ cart_count }}

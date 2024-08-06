@@ -11,6 +11,15 @@
 <safe-load-scripts>
   <script src="{{ 'component-header-main.min.js' | asset_url }}" defer="defer" type="module"></script>
 </safe-load-scripts>
+{%- if settings.cart_type == "cart_drawer" -%}
+  <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+{%- if settings.cart_type == "cart_drawer" -%}
+  {{ 'cart-drawer.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
+
+
 
 <header-main data-template-name="{{ template.name }}">
   <header role="banner" data-section-id="{{ section.id }}" data-aid="header-section" {{ header_grid }} class="grid py-3 px-4 lg:px-5 xl:px-6 lg:py-0 md:gap-[1rem] items-center bg-page text-body relative border-b border-b-border-opacity-10" data-color-scheme="{{ section.settings.section_color_scheme }}">

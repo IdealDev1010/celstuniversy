@@ -21,15 +21,15 @@
 -%}
 
 <div class="text-body armament-quantity-selector {{ classes }}">
-  <div class="mb-2">
+  <div class="">
     <label
       for="{{ id }}"
       class="text-h6 font-heading heading-case leading-none{% if hide_label_on_mobile %} sr-only md:not-sr-only{% endif %}"
     >
-      {{ 'products.product.quantity.label' | t }}
+      {% comment %} {{ 'products.product.quantity.label' | t }} {% endcomment %}
     </label>
   </div>
-  <quantity-selector class="inline-flex border"{% if data_line_index %} data-line-index={{ data_line_index }}{% endif %} data-section-id={{ section.id }}>
+  <quantity-selector class="inline-flex border"{% if data_line_index %} data-line-index="{{ data_line_index }}" {% endif %} data-section-id="{{ section.id }}">
     <button
       type="button"
       class="{{ button_classes }}"
