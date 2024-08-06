@@ -3,12 +3,10 @@
     <div class="drawer__recommend-product-container container slider-column" data-key="{{ item.key }}" >
       {%- assign recommend_products = item.product.metafields.custom.upsell.value -%}
       <h2 class="drawer__recommend-product--title">Here's a little something extra</h2>
-      <div class="custom-upsell-products swiper swiper-container">
+      <div class="custom-upsell-products swiper-container">
         <div class="drawer__recommend-product swiper-wrapper">
-          {%- assign count = 0 -%}
           {%- assign recommend_products = item.product.metafields.custom.upsell.value -%}
-              {% for recommend_item in recommend_products %}
-                {% if count <= 3 %}
+              {% for recommend_item in recommend_products limit: 3 %}
                   <recommend-product class="recommend-product--wrapper swiper-slide" data-item-id="{{ recommend_item.id }}">
                     <div class="recommend-product--container">
                       <div class="recommend-product--image">
@@ -20,7 +18,7 @@
                               {% assign recommend_image = recommend_item.featured_media %}
                             {% endif %}
                               <div class="variant recommend-product--image__item variant--image__item">
-                                <a href="{{ variant.url }}" style="height: 0; ">
+                                <a href="{{ variant.url }}">
                                   <img class="lazyload variant-image {% unless variant == current_variant %} hidden {% endunless %} "
                                       src="{{ recommend_image.src | img_url: width:360 }}"
                                       data-value="{{ variant.id }}"
@@ -94,13 +92,11 @@
                       </div>
                     </div>
                   </recommend-product>
-                  {%- assign count = count | plus: 1 -%}
-                {% endif %}
               {% endfor %}
         </div>
-        <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
+    
   </div>
 {% endif %}

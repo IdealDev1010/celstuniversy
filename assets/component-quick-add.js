@@ -293,7 +293,7 @@ class QuickAdd extends HTMLElement {
     this.setButton(added, false);
     $('.cart__drawer').addClass('show-cart__drawer');
       $('body').addClass('cv--show-cart__drawer');
-      
+      $('html').addClass('close-scroll');
       fetch(`/cart?section_id=cart-drawer`)
       .then((response) => response.text())
       .then((responseText) => {
